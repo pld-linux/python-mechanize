@@ -4,9 +4,9 @@ Summary:	Library for automating interaction with web pages
 Summary(pl):	Biblioteka do automatycznej interakcji ze stronami WWW
 Name:		python-%{module}
 Version:	0.1.6
-Release:	0.%{_beta}.1
+Release:	0.%{_beta}.2
 License:	BSD
-Group:		Development/Languages/Pytho
+Group:		Development/Languages/Python
 Source0:	http://wwwsearch.sourceforge.net/%{module}/src/%{module}-%{version}%{_beta}.tar.gz
 # Source0-md5:	98c27be9464f1342ede05784999d2757
 URL:		http://wwwsearch.sourceforge.net
