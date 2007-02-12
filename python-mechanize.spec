@@ -1,7 +1,7 @@
 %define		module mechanize
 %define		_beta b
 Summary:	Library for automating interaction with web pages
-Summary(pl):	Biblioteka do automatycznej interakcji ze stronami WWW
+Summary(pl.UTF-8):   Biblioteka do automatycznej interakcji ze stronami WWW
 Name:		python-%{module}
 Version:	0.1.6
 Release:	0.%{_beta}.2
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Library for automating interaction with web pages.
 
-%description -l pl
+%description -l pl.UTF-8
 Biblioteka do automatycznej interakcji ze stronami WWW.
 
 %prep
