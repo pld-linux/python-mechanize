@@ -7,9 +7,9 @@ Version:	0.1.6
 Release:	0.%{_beta}.2
 License:	BSD
 Group:		Development/Languages/Python
-Source0:	http://wwwsearch.sourceforge.net/%{module}/src/%{module}-%{version}%{_beta}.tar.gz
+Source0:	http://wwwsearch.sourceforge.net/mechanize/src/%{module}-%{version}%{_beta}.tar.gz
 # Source0-md5:	98c27be9464f1342ede05784999d2757
-URL:		http://wwwsearch.sourceforge.net
+URL:		http://wwwsearch.sourceforge.net/
 %pyrequires_eq  python-modules
 BuildRequires:  python >= 1:2.3
 BuildRequires:  python-devel >= 1:2.3
@@ -40,5 +40,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %doc COPYING.txt README.html ChangeLog.txt
 %defattr(644,root,root,755)
-%dir %{py_sitescriptdir}/%{module}/
+%dir %{py_sitescriptdir}/%{module}
 %{py_sitescriptdir}/%{module}/*.py[oc]
