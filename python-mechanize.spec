@@ -1,13 +1,14 @@
-%define		module mechanize
-%define		_beta b
+%define		module	mechanize
+%define		subver	b
+%define		rel		4
 Summary:	Library for automating interaction with web pages
 Summary(pl.UTF-8):	Biblioteka do automatycznej interakcji ze stronami WWW
 Name:		python-%{module}
 Version:	0.1.6
-Release:	0.%{_beta}.3
+Release:	0.%{subver}.%{rel}
 License:	BSD
 Group:		Development/Languages/Python
-Source0:	http://wwwsearch.sourceforge.net/mechanize/src/%{module}-%{version}%{_beta}.tar.gz
+Source0:	http://wwwsearch.sourceforge.net/mechanize/src/%{module}-%{version}%{subver}.tar.gz
 # Source0-md5:	98c27be9464f1342ede05784999d2757
 URL:		http://wwwsearch.sourceforge.net/
 %pyrequires_eq  python-modules
@@ -23,13 +24,13 @@ Library for automating interaction with web pages.
 Biblioteka do automatycznej interakcji ze stronami WWW.
 
 %prep
-%setup -q -n %{module}-%{version}%{_beta}
+%setup -q -n %{module}-%{version}%{subver}
 
 %build
-python setup.py build 
+%{__python} setup.py build 
 
 %install
-python setup.py install \
+%{__python} setup.py install \
     --root=$RPM_BUILD_ROOT \
     --optimize=2
 
