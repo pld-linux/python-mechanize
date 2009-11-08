@@ -4,12 +4,12 @@
 Summary:	Library for automating interaction with web pages
 Summary(pl.UTF-8):	Biblioteka do automatycznej interakcji ze stronami WWW
 Name:		python-%{module}
-Version:	0.1.10
+Version:	0.1.11
 Release:	1
-License:	BSD
+License:	BSD, ZPL 2.1
 Group:		Development/Languages/Python
 Source0:	http://wwwsearch.sourceforge.net/mechanize/src/%{module}-%{version}%{extraver}.tar.gz
-# Source0-md5:	596929b51dc7fb6f39f785db5095637f
+# Source0-md5:	c5e89a1886e44bd7a8598b0ba47287af
 URL:		http://wwwsearch.sourceforge.net/
 %pyrequires_eq  python-modules
 BuildRequires:	python >= 1:2.3
