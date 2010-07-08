@@ -1,11 +1,11 @@
 %define		module	mechanize
 %define		extraver %{nil}
-%define		rel		1
+%define		rel		2
 Summary:	Library for automating interaction with web pages
 Summary(pl.UTF-8):	Biblioteka do automatycznej interakcji ze stronami WWW
 Name:		python-%{module}
 Version:	0.1.11
-Release:	1
+Release:	2
 License:	BSD, ZPL 2.1
 Group:		Development/Languages/Python
 Source0:	http://wwwsearch.sourceforge.net/mechanize/src/%{module}-%{version}%{extraver}.tar.gz
