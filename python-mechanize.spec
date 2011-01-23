@@ -14,7 +14,9 @@ URL:		http://wwwsearch.sourceforge.net/
 %pyrequires_eq  python-modules
 BuildRequires:	python >= 1:2.3
 BuildRequires:	python-devel >= 1:2.3
+BuildRequires:	python-modules
 BuildRequires:	python-setuptools
+BuildRequires:	rpm-pythonprov
 Requires:	python-ClientForm >= 0.2.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
