@@ -1,6 +1,6 @@
 %define		module	mechanize
 %define		extraver %{nil}
-%define		rel		2
+%define		rel		3
 Summary:	Library for automating interaction with web pages
 Summary(pl.UTF-8):	Biblioteka do automatycznej interakcji ze stronami WWW
 Name:		python-%{module}
