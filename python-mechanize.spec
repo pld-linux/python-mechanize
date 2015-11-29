@@ -10,6 +10,7 @@ Group:		Development/Languages/Python
 Source0:	http://wwwsearch.sourceforge.net/mechanize/src/%{module}-%{version}%{extraver}.tar.gz
 # Source0-md5:	32657f139fc2fb75bcf193b63b8c60b2
 URL:		http://wwwsearch.sourceforge.net/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python >= 1:2.3
 BuildRequires:	python-devel >= 1:2.3
 BuildRequires:	python-modules
